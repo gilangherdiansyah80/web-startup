@@ -32,7 +32,7 @@ const HelpSection = () => {
                         <div className={`w-full flex justify-between gap-y-3 ${
                         item.id === 1 ? 'items-center' : ''
                         }`} onClick={() => toggleIsOpen(item.id)}>
-                            <h2 className={`text-lg font-semibold ${item.id === 1 || item.id === 4 ? 'w-72' : 'w-80'}`}>{item.question}</h2>
+                            <h2 className={`text-lg font-semibold ${item.id === 1 || item.id === 3 ? 'w-72' : 'w-80'}`}>{item.question}</h2>
                             {isOpen.includes(item.id) ? (
                                 <i className={`fas fa-chevron-up ${item.id === 1 ? '' : 'mt-2'}`}></i>
                             ) : (
