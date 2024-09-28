@@ -1,4 +1,5 @@
 import { Fragment } from "react"
+import Template from "../../utils/template";
 
 const HomeSection = () => {
     return (
@@ -220,25 +221,27 @@ const HomeSection = () => {
                 </section>
 
                 <section className="flex flex-col gap-y-5 justify-center">
-                <article className="flex flex-col gap-y-2 justify-center">
-                    <h1 className="text-2xl font-bold text-center">Template Kami</h1>
-                    <hr className="w-20 rounded-xl bg-purple-800 border-purple-800 border-y-4 self-center" />
-                    <p className="text-center text-gray-500">Temukan template yang anda inginkan</p>
-                </article>
+                    <article className="flex flex-col gap-y-2 justify-center">
+                        <h1 className="text-2xl font-bold text-center">Template Kami</h1>
+                        <hr className="w-20 rounded-xl bg-purple-800 border-purple-800 border-y-4 self-center" />
+                        <p className="text-center text-gray-500">Temukan template yang anda inginkan</p>
+                    </article>
 
-                <article className="flex flex-col gap-y-3">
-                    <div className="flex flex-col gap-y-3">
-                    
+                    <div>
+                        {Template.map((item) => (
+                            <div key={item.id} className="flex flex-col gap-y-3">
+                                <img src={item.image} alt="Template 1" className="rounded-xl" />
+                                <div className="flex justify-between items-center">
+                                    <h1 className="font-semibold">{item.name}</h1>
+                                    <div>
+                                        <a href={item.url} target="_blank" className="border-black border-2 rounded-lg flex justify-center w-10 h-6 p-3 hover:bg-purple-800 group border-solid items-center cursor-pointer">
+                                            <i className="fas fa-eye text-lg text-purple-800 group-hover:text-white"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        ))}
                     </div>
-
-                    <div className="flex flex-col gap-y-3">
-                    
-                    </div>
-
-                    <div className="flex flex-col gap-y-3">
-                    
-                    </div>
-                </article>
                 </section>
 
                 <section className="w-full h-20 flex items-center justify-between bg-black rounded-2xl mb-3">
