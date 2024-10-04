@@ -14,7 +14,7 @@ const HelpSection = () => {
 
     return (
         <Fragment>
-            <section className="flex flex-col gap-y-3 lg:flex-row lg:justify-between lg:items-center lg:w-3/5 lg:self-center">
+            <section className="flex flex-col gap-y-3 lg:flex-row lg:justify-between lg:items-center xl:w-3/5 xl:self-center">
                 <div className="flex flex-col gap-y-3">
                     <h1 className="text-2xl font-bold">Perlu Bantuan?</h1>
                     <hr className="w-20 rounded-xl border-2 border-purple-800 border-y-4" />
@@ -23,11 +23,11 @@ const HelpSection = () => {
                 <img src="./images/faq-illustration.svg" alt="" />
             </section>
 
-            <section className="flex flex-col gap-y-3 lg:w-3/5 lg:self-center md:mb-12">
+            <section className="flex flex-col gap-y-3 xl:w-3/5 xl:self-center md:mb-12">
                 <h1 className="text-2xl font-bold">Pertanyaan Populer</h1>
                 <hr className="w-20 rounded-xl border-2 border-purple-800 border-y-4" />
 
-                <section className="lg:flex lg:gap-x-10">
+                <section className="flex lg:flex-row lg:gap-x-10 flex-col gap-y-5">
                     <div className="lg:w-3/4">
                         <hr className="border-gray-500" />
                         {Faq.map((item) => (

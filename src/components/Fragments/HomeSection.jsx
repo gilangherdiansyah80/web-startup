@@ -4,7 +4,7 @@ import Template from "../../utils/template";
 const HomeSection = () => {
     return (
         <Fragment>
-            <article className="flex flex-col gap-y-3 lg:self-center lg:w-3/5">
+            <article className="flex flex-col gap-y-3 xl:self-center xl:w-3/5 mt-8">
                 <h1 className="text-2xl font-bold text-purple-800 md:text-4xl">Lorem ipsum dolor sit amet.</h1>
                 <p className="text-gray-500">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias hic facilis harum sint accusamus sunt itaque ab excepturi consequuntur a.</p>
                 <ul className="flex flex-col md:flex-row md:gap-x-4 gap-y-2">
@@ -35,7 +35,7 @@ const HomeSection = () => {
                 </ul>
                 </article>
 
-                <section className="flex flex-col gap-y-5 justify-center lg:self-center lg:w-3/5">
+                <section className="flex flex-col gap-y-5 justify-center xl:self-center xl:w-3/5">
                     <article className="flex flex-col gap-y-2 justify-center">
                         <h1 className="text-2xl font-bold text-center">Servis Kami</h1>
                         <hr className="w-20 md:w-28 rounded-xl border-purple-800 border-2 border-y-4 self-center" />
@@ -75,10 +75,10 @@ const HomeSection = () => {
                     </article>
                 </section>
 
-                <section className="flex flex-col gap-y-5 lg:self-center lg:w-3/5">
-                    <article className="flex flex-col gap-y-2 justify-center">
+                <section className="flex flex-col gap-y-10 xl:self-center xl:w-3/5">
+                    <article className="flex flex-col gap-y-2 justify-center items-center">
                         <h1 className="text-2xl font-bold md:text-4xl">Bagaimana Melakukan Transaksinya?</h1>
-                        <hr className="w-20 md:w-96 rounded-xl border-purple-800 border-2 border-y-4" />
+                        <hr className="w-20 rounded-xl border-purple-800 border-2 border-y-4" />
                         <p className="text-gray-500">Anda bisa mengikuti step-step dibawah ini dengan mengikuti step-step dibawah ini.</p>
                     </article>
 
@@ -238,14 +238,14 @@ const HomeSection = () => {
                     </section>
                 </section>
 
-                <section className="flex flex-col gap-y-5 justify-center lg:self-center lg:w-3/5">
+                <section className="flex flex-col gap-y-5 justify-center xl:self-center xl:w-3/5">
                     <article className="flex flex-col gap-y-2 justify-center">
                         <h1 className="text-2xl md:text-4xl font-bold text-center">Template Kami</h1>
                         <hr className="w-20 md:w-56 rounded-xl border-purple-800 border-2 border-y-4 self-center" />
                         <p className="text-center text-gray-500">Temukan template yang anda inginkan</p>
                     </article>
 
-                    <div className="flex flex-col gap-y-3 md:grid md:grid-cols-2 md:gap-3 lg:grid-cols-3">
+                    <div className="flex flex-col gap-y-3 md:grid md:grid-cols-2 md:gap-5 lg:grid-cols-3">
                         {Template.map((item) => (
                             <div key={item.id} className="flex flex-col gap-y-3">
                                 <img src={item.image} alt="Template 1" className="rounded-xl" />
@@ -260,7 +260,7 @@ const HomeSection = () => {
                     </div>
                 </section>
 
-                <section className="w-full h-20 flex items-center justify-between md:justify-center bg-black rounded-2xl mb-3 md:mb-12 lg:self-center lg:w-3/5">
+                <section className="w-full h-20 flex items-center justify-between md:justify-center bg-black rounded-2xl mb-3 md:mb-12 xl:self-center xl:w-3/5">
                     <img src="/images/logo.png" alt="CodeExpress" />
                 </section>
         </Fragment>

@@ -5,7 +5,7 @@ const AuthLayout = ({ children }) => {
     return (
         <div>
       <header className='fixed z-10 top-0 w-full bg-black flex justify-center'>
-        <div className="flex items-center justify-between h-24 lg:w-3/5 lg:self-center">
+        <div className="flex items-center justify-between w-full h-24 xl:w-3/5 xl:self-center">
           <a href="" className="-ms-2">
             <img src="./images/logo.png" alt="CodeExpress" className="w-32 md:w-36" />
           </a>
@@ -27,7 +27,7 @@ const AuthLayout = ({ children }) => {
       </main>
 
       <footer className="bg-black text-white p-3 flex flex-col gap-y-5 md:text-xl">
-        <section className="flex flex-col gap-y-5 md:flex-row md:p-5 md:justify-center md:items-center md:gap-x-5 lg:w-3/5 lg:self-center">
+        <section className="flex flex-col gap-y-5 md:flex-row md:p-5 md:justify-center md:items-center md:gap-x-5 xl:w-3/5 xl:self-center">
           <div className="md:w-1/3">
             <img src="/images/logotext.png" alt="CodeExpress" className="w-52 -mt-20 -ms-10" />
             <p className="-mt-20">Mari wujudkan impian kalian bersama CodeExpress</p>
@@ -66,7 +66,7 @@ const AuthLayout = ({ children }) => {
           </div>
         </section>
 
-        <hr className="lg:w-3/5 lg:self-center" />
+        <hr className="xl:w-3/5 xl:self-center" />
 
         <div className="text-center flex justify-center items-start p-3">
           <p className="text-sm -mt-4 md:text-xl">© Copyright 2024. All Rights Reserved by CodeExpress</p>
