@@ -2,22 +2,26 @@ import { Link } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
 const AuthLayout = ({ children }) => {
-    return (
-        <div>
-      <header className='fixed z-10 top-0 w-full bg-black flex justify-center'>
+  return (
+    <div>
+      <header className="fixed z-10 top-0 w-full bg-black flex justify-center">
         <div className="flex items-center justify-between w-full h-24 xl:w-3/5 xl:self-center">
           <a href="" className="-ms-2">
-            <img src="./images/logo.png" alt="CodeExpress" className="w-32 md:w-36" />
+            <img
+              src="./images/logo.png"
+              alt="CodeExpress"
+              className="w-32 md:w-36"
+            />
           </a>
           <nav className="text-white me-5">
-              <ul className="flex gap-x-7 md:gap-x-10">
-                <Link to='/'>
-                  <li className="hover:text-purple-800 md:text-xl">Home</li>
-                </Link>
-                <Link  to='/help'>
-                  <li className="hover:text-purple-800 md:text-xl">Help</li>
-                </Link>
-              </ul>
+            <ul className="flex gap-x-7 md:gap-x-10">
+              <Link to="/">
+                <li className="hover:text-purple-800 md:text-xl">Home</li>
+              </Link>
+              <Link to="/help">
+                <li className="hover:text-purple-800 md:text-xl">Help</li>
+              </Link>
+            </ul>
           </nav>
         </div>
       </header>
@@ -29,8 +33,14 @@ const AuthLayout = ({ children }) => {
       <footer className="bg-black text-white p-3 flex flex-col gap-y-5 md:text-xl">
         <section className="flex flex-col gap-y-5 md:flex-row md:p-5 md:justify-center md:items-center md:gap-x-5 xl:w-3/5 xl:self-center">
           <div className="md:w-1/3">
-            <img src="/images/logotext.png" alt="CodeExpress" className="w-52 -mt-20 -ms-10" />
-            <p className="-mt-20">Mari wujudkan impian kalian bersama CodeExpress</p>
+            <img
+              src="/images/logotext.png"
+              alt="CodeExpress"
+              className="w-52 -mt-20 -ms-10"
+            />
+            <p className="-mt-20">
+              Mari wujudkan impian kalian bersama CodeExpress
+            </p>
           </div>
 
           <hr />
@@ -41,8 +51,12 @@ const AuthLayout = ({ children }) => {
               <hr className="w-20 rounded-xl border-2 border-purple-800 border-y-2" />
             </div>
             <ul className="flex flex-col gap-y-2">
-              <li className="hover:text-purple-800">Home</li>
-              <li className="hover:text-purple-800">Help</li>
+              <Link to="/">
+                <li className="hover:text-purple-800 md:text-xl">Home</li>
+              </Link>
+              <Link to="/help">
+                <li className="hover:text-purple-800 md:text-xl">Help</li>
+              </Link>
             </ul>
           </div>
 
@@ -59,8 +73,13 @@ const AuthLayout = ({ children }) => {
                 <p>codeexpress@gmai.com</p>
               </li>
               <li className="flex gap-x-3 items-center">
-                <i className="fab fa-whatsapp text-2xl text-green-600 hover:text-purple-800"></i>
-                <p>+62 858 66244363</p>
+                <a
+                  className="flex gap-x-3 items-center"
+                  href="https://wa.me/6285866244363"
+                >
+                  <i className="fab fa-whatsapp text-2xl text-green-600 hover:text-purple-800"></i>
+                  <p>+62 858 66244363</p>
+                </a>
               </li>
             </ul>
           </div>
@@ -69,11 +88,13 @@ const AuthLayout = ({ children }) => {
         <hr className="xl:w-3/5 xl:self-center" />
 
         <div className="text-center flex justify-center items-start p-3">
-          <p className="text-sm -mt-4 md:text-xl">© Copyright 2024. All Rights Reserved by CodeExpress</p>
+          <p className="text-sm -mt-4 md:text-xl">
+            © Copyright 2024. All Rights Reserved by CodeExpress
+          </p>
         </div>
       </footer>
     </div>
-    )
-}
+  );
+};
 
 export default AuthLayout;
