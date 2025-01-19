@@ -360,7 +360,7 @@ const HomeSection = () => {
       </section>
 
       <section className="w-full h-20 flex items-center justify-center bg-black rounded-2xl mb-3 md:mb-12 xl:self-center xl:w-3/5">
-        <img src="/images/logo.png" alt="CodeExpress" className="w-52" />
+        <img src="/images/logo.png" alt="ADExpress" className="w-52" />
       </section>
     </Fragment>
   );

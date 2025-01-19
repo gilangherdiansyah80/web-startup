@@ -9,7 +9,7 @@ const AuthLayout = ({ children }) => {
           <a href="" className="-ms-2">
             <img
               src="./images/logo.png"
-              alt="CodeExpress"
+              alt="ADExpress"
               className="w-32 md:w-36"
             />
           </a>
@@ -34,12 +34,12 @@ const AuthLayout = ({ children }) => {
         <section className="flex flex-col gap-y-5 md:flex-row md:p-5 md:justify-center md:items-center md:gap-x-5 xl:w-3/5 xl:self-center">
           <div className="md:w-1/3">
             <img
-              src="/images/logotext.png"
-              alt="CodeExpress"
+              src="/images/logo.png"
+              alt="ADExpress"
               className="w-52 -mt-20 -ms-10"
             />
-            <p className="-mt-20">
-              Mari wujudkan impian kalian bersama CodeExpress
+            <p className="-mt-16">
+              Mari wujudkan impian kalian bersama ADExpress
             </p>
           </div>
 
@@ -70,7 +70,7 @@ const AuthLayout = ({ children }) => {
             <ul className="flex flex-col gap-y-3">
               <li className="flex gap-x-3 items-center">
                 <img src="/images/email.png" alt="Email" className="w-6" />
-                <p>codeexpress@gmai.com</p>
+                <p>ADExpress@gmai.com</p>
               </li>
               <li className="flex gap-x-3 items-center">
                 <a
@@ -89,7 +89,7 @@ const AuthLayout = ({ children }) => {
 
         <div className="text-center flex justify-center items-start p-3">
           <p className="text-sm -mt-4 md:text-xl">
-            © Copyright 2024. All Rights Reserved by CodeExpress
+            © Copyright 2024. All Rights Reserved by ADExpress
           </p>
         </div>
       </footer>
