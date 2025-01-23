@@ -17,7 +17,7 @@ const HomeSection = () => {
   return (
     <Fragment>
       <article className="flex flex-col gap-y-3 xl:self-center xl:w-3/5 mt-8">
-        <h1 className="text-2xl font-bold text-[#018673] md:text-4xl">
+        <h1 className="text-2xl font-bold text-[#344CB7] md:text-4xl">
           Wujudkan Mimpi Kalian Bersama Kami
         </h1>
         <p className="text-gray-500">
@@ -55,7 +55,7 @@ const HomeSection = () => {
       <section className="flex flex-col gap-y-5 justify-center xl:self-center xl:w-3/5">
         <article className="flex flex-col gap-y-2 justify-center">
           <h1 className="text-2xl font-bold text-center">Servis Kami</h1>
-          <hr className="w-20 md:w-28 rounded-xl border-[#018673] border-2 border-y-2 self-center" />
+          <hr className="w-20 md:w-28 rounded-xl border-[#344CB7] border-2 border-y-2 self-center" />
           <p className="text-center text-gray-500">
             Temukan layanan kami sesuai kebutuhan anda
           </p>
@@ -64,7 +64,7 @@ const HomeSection = () => {
         <article className="flex flex-col gap-y-3 md:grid md:grid-cols-3 md:gap-3">
           <div className="flex flex-col gap-y-3">
             <h2 className="text-xl md:text-2xl font-semibold">
-              Pembuatan <span className="text-[#018673]">Website</span>{" "}
+              Pembuatan <span className="text-[#344CB7]">Website</span>{" "}
               <span className="block">Menggunakan Template</span>
             </h2>
             <p className="mt-3 text-gray-500">
@@ -75,7 +75,7 @@ const HomeSection = () => {
             <a
               href="#template"
               onClick={(e) => handleClick("template", e)}
-              className="flex items-center self-start justify-center gap-x-2 text-[#018673]"
+              className="flex items-center self-start justify-center gap-x-2 text-[#344CB7]"
             >
               <p>Kunjungi Servis ini</p>
               <i className="fas fa-arrow-right"></i>
@@ -85,7 +85,7 @@ const HomeSection = () => {
 
           <div className="flex flex-col gap-y-3">
             <h2 className="text-xl font-semibold md:text-2xl">
-              Pembuatan <span className="text-[#018673]">Website</span>{" "}
+              Pembuatan <span className="text-[#344CB7]">Website</span>{" "}
               <span className="block">Menggunakan Design anda</span>
             </h2>
             <p className="mt-3 text-gray-500">
@@ -95,7 +95,7 @@ const HomeSection = () => {
             </p>
             <a
               href="https://wa.me/6285866244363"
-              className="flex items-center self-start justify-center gap-x-2 text-[#018673]"
+              className="flex items-center self-start justify-center gap-x-2 text-[#344CB7]"
             >
               <p>Kunjungi Servis ini</p>
               <i className="fas fa-arrow-right"></i>
@@ -105,7 +105,7 @@ const HomeSection = () => {
 
           <div className="flex flex-col gap-y-3">
             <h2 className="text-xl font-semibold md:text-2xl">
-              IT <span className="text-[#018673]">Konsultan</span>{" "}
+              IT <span className="text-[#344CB7]">Konsultan</span>{" "}
               <span className="block">
                 Menyediakan Layanan IT yang Inovatif
               </span>
@@ -117,7 +117,7 @@ const HomeSection = () => {
             </p>
             <a
               href="https://wa.me/6285866244363"
-              className="flex items-center self-start justify-center gap-x-2 text-[#018673]"
+              className="flex items-center self-start justify-center gap-x-2 text-[#344CB7]"
             >
               <p>Kunjungi Servis ini</p>
               <i className="fas fa-arrow-right"></i>
@@ -132,7 +132,7 @@ const HomeSection = () => {
           <h1 className="text-2xl font-bold md:text-4xl">
             Bagaimana Melakukan Transaksinya?
           </h1>
-          <hr className="w-20 rounded-xl border-[#018673] border-2 border-y-2" />
+          <hr className="w-20 rounded-xl border-[#344CB7] border-2 border-y-2" />
           <p className="text-gray-500">
             Anda bisa mengikuti step-step dibawah ini dengan mengikuti step-step
             dibawah ini.
@@ -143,12 +143,12 @@ const HomeSection = () => {
           <div className="flex flex-col justify-center items-center gap-y-3">
             <div className="bg-[url('./images/border3.png')] bg-cover bg-center bg-no-repeat p-11 flex justify-center items-center">
               <div className="flex flex-col gap-y-3 w-36 h-36 justify-center items-center bg-white shadow-sm shadow-black rounded-full self-center">
-                <i className="fas fa-search text-2xl text-[#018673]"></i>
+                <i className="fas fa-search text-2xl text-[#344CB7]"></i>
                 <h2>Pilih Template</h2>
               </div>
             </div>
 
-            <div className="bg-purple-300 p-2 rounded-lg text-[#018673]">
+            <div className="bg-[#000957] p-2 rounded-lg text-[#344CB7]">
               <h3>Step 1</h3>
             </div>
 
@@ -163,12 +163,12 @@ const HomeSection = () => {
           <div className="flex flex-col justify-center items-center gap-y-3">
             <div className="bg-[url('./images/border3.png')] bg-cover bg-center bg-no-repeat p-11 flex justify-center items-center">
               <div className="flex flex-col gap-y-3 w-36 h-36 justify-center items-center bg-white shadow-sm shadow-black rounded-full">
-                <i className="fas fa-user text-2xl text-[#018673]"></i>
+                <i className="fas fa-user text-2xl text-[#344CB7]"></i>
                 <h2 className="text-sm">Hubungi Admin</h2>
               </div>
             </div>
 
-            <div className="bg-purple-300 p-2 rounded-lg text-[#018673]">
+            <div className="bg-[#000957] p-2 rounded-lg text-[#344CB7]">
               <h3>Step 2</h3>
             </div>
 
@@ -183,12 +183,12 @@ const HomeSection = () => {
           <div className="flex flex-col justify-center items-center gap-y-3">
             <div className="bg-[url('./images/border3.png')] bg-cover bg-center bg-no-repeat p-11 flex justify-center items-center">
               <div className="flex flex-col gap-y-3 w-36 h-36 justify-center items-center bg-white shadow-sm shadow-black rounded-full">
-                <i className="fas fa-comments text-2xl text-[#018673]"></i>
+                <i className="fas fa-comments text-2xl text-[#344CB7]"></i>
                 <h2 className="text-sm">Diskusi Kebutuhan</h2>
               </div>
             </div>
 
-            <div className="bg-purple-300 p-2 rounded-lg text-[#018673]">
+            <div className="bg-[#000957] p-2 rounded-lg text-[#344CB7]">
               <h3>Step 3</h3>
             </div>
 
@@ -203,12 +203,12 @@ const HomeSection = () => {
           <div className="flex flex-col justify-center items-center gap-y-3">
             <div className="bg-[url('./images/border3.png')] bg-cover bg-center bg-no-repeat p-11 flex justify-center items-center">
               <div className="flex flex-col gap-y-3 w-36 h-36 justify-center items-center bg-white shadow-sm shadow-black rounded-full">
-                <i className="fab fa-searchengin text-2xl text-[#018673]"></i>
+                <i className="fab fa-searchengin text-2xl text-[#344CB7]"></i>
                 <h2 className="text-sm">Menemukan Solusi</h2>
               </div>
             </div>
 
-            <div className="bg-purple-300 p-2 rounded-lg text-[#018673]">
+            <div className="bg-[#000957] p-2 rounded-lg text-[#344CB7]">
               <h3>Step 4</h3>
             </div>
 
@@ -222,12 +222,12 @@ const HomeSection = () => {
           <div className="flex flex-col justify-center items-center gap-y-3">
             <div className="bg-[url('./images/border3.png')] bg-cover bg-center bg-no-repeat p-11 flex justify-center items-center">
               <div className="flex flex-col gap-y-3 w-36 h-36 justify-center items-center bg-white shadow-sm shadow-black rounded-full">
-                <i className="fas fa-money-check-dollar text-2xl text-[#018673]"></i>
+                <i className="fas fa-money-check-dollar text-2xl text-[#344CB7]"></i>
                 <h2 className="text-sm">Pembayaran DP</h2>
               </div>
             </div>
 
-            <div className="bg-purple-300 p-2 rounded-lg text-[#018673]">
+            <div className="bg-[#000957] p-2 rounded-lg text-[#344CB7]">
               <h3>Step 5</h3>
             </div>
 
@@ -252,7 +252,7 @@ const HomeSection = () => {
               </div>
             </div>
 
-            <div className="bg-purple-300 p-2 rounded-lg text-[#018673]">
+            <div className="bg-[#000957] p-2 rounded-lg text-[#344CB7]">
               <h3>Step 6</h3>
             </div>
 
@@ -276,7 +276,7 @@ const HomeSection = () => {
               </div>
             </div>
 
-            <div className="bg-purple-300 p-2 rounded-lg text-[#018673]">
+            <div className="bg-[#000957] p-2 rounded-lg text-[#344CB7]">
               <h3>Step 7</h3>
             </div>
 
@@ -290,12 +290,12 @@ const HomeSection = () => {
           <div className="flex flex-col justify-center items-center gap-y-3">
             <div className="bg-[url('./images/border3.png')] bg-cover bg-center bg-no-repeat p-11 flex justify-center items-center">
               <div className="flex flex-col gap-y-3 w-36 h-36 justify-center items-center bg-white shadow-sm shadow-black rounded-full">
-                <i className="fas fa-money-bill-wave text-2xl text-[#018673]"></i>
+                <i className="fas fa-money-bill-wave text-2xl text-[#344CB7]"></i>
                 <h2 className="text-sm">Pembayaran Penuh</h2>
               </div>
             </div>
 
-            <div className="bg-purple-300 p-2 rounded-lg text-[#018673]">
+            <div className="bg-[#000957] p-2 rounded-lg text-[#344CB7]">
               <h3>Step 8</h3>
             </div>
 
@@ -310,12 +310,12 @@ const HomeSection = () => {
           <div className="flex flex-col justify-center items-center gap-y-3">
             <div className="bg-[url('./images/border3.png')] bg-cover bg-center bg-no-repeat p-11 flex justify-center items-center">
               <div className="flex flex-col gap-y-3 w-36 h-36 justify-center items-center bg-white shadow-sm shadow-black rounded-full">
-                <i className="fas fa-check text-2xl text-[#018673]"></i>
+                <i className="fas fa-check text-2xl text-[#344CB7]"></i>
                 <h2 className="text-sm">Transaksi Selesai</h2>
               </div>
             </div>
 
-            <div className="bg-purple-300 p-2 rounded-lg text-[#018673]">
+            <div className="bg-[#000957] p-2 rounded-lg text-[#344CB7]">
               <div id="template"></div>
               <h3>Step 9</h3>
             </div>
@@ -334,7 +334,7 @@ const HomeSection = () => {
           <h1 className="text-2xl xl:text-4xl font-bold text-center">
             Template Kami
           </h1>
-          <hr className="w-20 xl:w-56 rounded-xl border-[#018673] border-2 border-y-2 self-center" />
+          <hr className="w-20 xl:w-56 rounded-xl border-[#344CB7] border-2 border-y-2 self-center" />
           <p className="text-center text-gray-500">
             Temukan template yang anda inginkan
           </p>
@@ -349,9 +349,9 @@ const HomeSection = () => {
                 <a
                   href={item.url}
                   target="_blank"
-                  className="border-black border-2 rounded-lg flex justify-center w-10 h-6 p-3 hover:bg-[#018673] group border-solid items-center"
+                  className="border-black border-2 rounded-lg flex justify-center w-10 h-6 p-3 hover:bg-[#344CB7] group border-solid items-center"
                 >
-                  <i className="fas fa-eye text-lg text-[#018673] group-hover:text-white"></i>
+                  <i className="fas fa-eye text-lg text-[#344CB7] group-hover:text-white"></i>
                 </a>
               </div>
             </div>
@@ -360,7 +360,7 @@ const HomeSection = () => {
       </section>
 
       <section className="w-full h-20 flex items-center justify-center bg-black rounded-2xl mb-3 md:mb-12 xl:self-center xl:w-3/5">
-        <img src="/images/logo.png" alt="ADExpress" className="w-52" />
+        <img src="/images/logo.png" alt="code.express" className="w-52" />
       </section>
     </Fragment>
   );

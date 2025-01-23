@@ -1,9 +1,9 @@
 const Faq = [
   {
     id: 1,
-    question: "Apa sih Web ADEexpress?",
+    question: "Apa sih Web code.express?",
     answer:
-      "Web ADEexpress merupakan platform pembuatan website secara instan untuk membantu UMKM/Bisnis Skala Kecil dan ADEexpress mempunyai website secara mudah dan murah. Kalian akan mendapatkan Website keren yang siap edit dalam waktu maksimal 2x24 jam setelah melakukan pemesanan. Website tersebut membantu untuk mengembangkan bisnis yang kamu punya. Keren kan!",
+      "Web code.express merupakan platform pembuatan website secara instan untuk membantu UMKM/Bisnis Skala Kecil dan code.express mempunyai website secara mudah dan murah. Kalian akan mendapatkan Website keren yang siap edit dalam waktu maksimal 2x24 jam setelah melakukan pemesanan. Website tersebut membantu untuk mengembangkan bisnis yang kamu punya. Keren kan!",
   },
   {
     id: 2,
@@ -13,9 +13,9 @@ const Faq = [
   },
   {
     id: 3,
-    question: "Apa itu tamplate website ADEexpress?",
+    question: "Apa itu tamplate website code.express?",
     answer:
-      "Template Website Web ADEexpress merupakan design website siap pakai yang sudah dibuat oleh pihak Web ADEexpress. Kami mempunyai ratusan Template Website yang sudah disesuaikan untuk kebutuhan bisnis masing-masing. Jadi kamu tidak perlu lagi melalui proses design website yang rumit dan tinggal mengganti logo, tulisan, dan gambar yang ada di website kamu. Jadi gak ribet lagi deh! Terus, kalau kamu ingin mengganti design website kamu dengan template yang lain, cukup kontak Customer Service kami via Whatsapp/DM Instagram. GRATIS!",
+      "Template Website Web code.express merupakan design website siap pakai yang sudah dibuat oleh pihak Web code.express. Kami mempunyai ratusan Template Website yang sudah disesuaikan untuk kebutuhan bisnis masing-masing. Jadi kamu tidak perlu lagi melalui proses design website yang rumit dan tinggal mengganti logo, tulisan, dan gambar yang ada di website kamu. Jadi gak ribet lagi deh! Terus, kalau kamu ingin mengganti design website kamu dengan template yang lain, cukup kontak Customer Service kami via Whatsapp/DM Instagram. GRATIS!",
   },
   {
     id: 4,
@@ -25,9 +25,9 @@ const Faq = [
   },
   {
     id: 5,
-    question: "Bisakah membatalkan pembelian website di Web ADEexpress?",
+    question: "Bisakah membatalkan pembelian website di Web code.express?",
     answer:
-      "Bisa, akan tetapi mohon maaf Web ADEexpress tidak akan mengembalikan dana penuh yang telah anda bayar, karena setiap website yang dipesan akan otomatis dikerjakan oleh tim kami. Jadi kalian harus memastikan website yang dipesan benar-benar sesuai yah!",
+      "Bisa, akan tetapi mohon maaf Web code.express tidak akan mengembalikan dana penuh yang telah anda bayar, karena setiap website yang dipesan akan otomatis dikerjakan oleh tim kami. Jadi kalian harus memastikan website yang dipesan benar-benar sesuai yah!",
   },
 ];
 
