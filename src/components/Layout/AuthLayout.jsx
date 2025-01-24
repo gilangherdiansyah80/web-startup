@@ -6,13 +6,13 @@ const AuthLayout = ({ children }) => {
     <div>
       <header className="fixed z-10 top-0 w-full bg-[#577BC1] flex justify-center">
         <div className="flex items-center justify-between w-full h-24 xl:w-3/5 xl:self-center">
-          <a href="" className="-ms-8">
+          <Link to="/" className="-ms-5 md:-ms-10">
             <img
               src="./images/logo.png"
               alt="code.express"
-              className="w-32 md:w-64"
+              className="w-52 md:w-64"
             />
-          </a>
+          </Link>
           <nav className="text-white me-5">
             <ul className="flex gap-x-7 md:gap-x-10">
               <Link to="/">
@@ -38,7 +38,7 @@ const AuthLayout = ({ children }) => {
               alt="code.express"
               className="w-52 -mt-20 -ms-10"
             />
-            <p className="-mt-16">
+            <p className="-mt-20 md:-mt-16">
               Mari wujudkan impian kalian bersama code.express
             </p>
           </div>
