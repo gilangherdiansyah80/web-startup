@@ -17,7 +17,7 @@ const HelpSection = () => {
       <section className="flex flex-col gap-y-3 lg:flex-row lg:justify-between lg:items-center xl:w-3/5 xl:self-center">
         <div className="flex flex-col gap-y-3">
           <h1 className="text-2xl font-bold">Perlu Bantuan?</h1>
-          <hr className="w-20 rounded-xl border-2 border-purple-800 border-y-4" />
+          <hr className="w-20 rounded-xl border-2 border-[#000957] border-y-4" />
           <p className="text-gray-500">
             Jangan khawatir cari dan temukan pertanyaanmu disini
           </p>
@@ -27,7 +27,7 @@ const HelpSection = () => {
 
       <section className="flex flex-col gap-y-3 xl:w-3/5 xl:self-center md:mb-12">
         <h1 className="text-2xl font-bold">Pertanyaan Populer</h1>
-        <hr className="w-20 rounded-xl border-2 border-purple-800 border-y-4" />
+        <hr className="w-20 rounded-xl border-2 border-[#000957] border-y-4" />
 
         <section className="flex lg:flex-row lg:gap-x-10 flex-col gap-y-5">
           <div className="lg:w-3/4">

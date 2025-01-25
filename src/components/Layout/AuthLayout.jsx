@@ -28,6 +28,12 @@ const AuthLayout = ({ children }) => {
 
       <main className="text-black mt-24 p-3 flex flex-col gap-y-10 md:gap-y-20 lg:justify-center">
         {children}
+
+        <section className="h-10 w-10 rounded-full bg-green-600 fixed bottom-5 right-5">
+          <div className="flex justify-center items-center h-full">
+            <i className="fab fa-whatsapp text-2xl text-white"></i>
+          </div>
+        </section>
       </main>
 
       <footer className="bg-[#577BC1] text-white p-3 flex flex-col gap-y-5 md:text-xl">
@@ -77,7 +83,7 @@ const AuthLayout = ({ children }) => {
                   className="flex gap-x-3 items-center"
                   href="https://wa.me/6285866244363"
                 >
-                  <i className="fab fa-whatsapp text-2xl text-green-600 hover:text-[#000957]"></i>
+                  <i className="fab fa-whatsapp text-2xl text-green-700"></i>
                   <p>+62 858 66244363</p>
                 </a>
               </li>
