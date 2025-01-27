@@ -197,7 +197,7 @@ const HomeSection = () => {
       <section className="flex flex-col gap-y-10 xl:self-center xl:w-3/5">
         <article className="flex flex-col gap-y-2 justify-center items-center">
           <h1 className="text-2xl font-bold md:text-4xl">
-            Bagaimana Melakukan Transaksinya?
+            Bagaimana Melakukan Order?
           </h1>
           <hr className="w-20 rounded-xl border-[#344CB7] border-2 border-y-2" />
           <p className="text-gray-500">
@@ -270,32 +270,13 @@ const HomeSection = () => {
           <div className="flex flex-col justify-center items-center gap-y-3">
             <div className="bg-[url('./images/border3.png')] bg-cover bg-center bg-no-repeat p-11 flex justify-center items-center">
               <div className="flex flex-col gap-y-3 w-36 h-36 justify-center items-center bg-white shadow-sm shadow-black rounded-full">
-                <i className="fab fa-searchengin text-2xl text-[#344CB7]"></i>
-                <h2 className="text-sm">Menemukan Solusi</h2>
-              </div>
-            </div>
-
-            <div className="bg-[#577BC1] p-2 rounded-lg text-[#000957]">
-              <h3>Step 4</h3>
-            </div>
-
-            <article>
-              <p className="text-center text-gray-500">
-                Tim kami menemukan kebutuhan anda.
-              </p>
-            </article>
-          </div>
-
-          <div className="flex flex-col justify-center items-center gap-y-3">
-            <div className="bg-[url('./images/border3.png')] bg-cover bg-center bg-no-repeat p-11 flex justify-center items-center">
-              <div className="flex flex-col gap-y-3 w-36 h-36 justify-center items-center bg-white shadow-sm shadow-black rounded-full">
                 <i className="fas fa-money-check-dollar text-2xl text-[#344CB7]"></i>
                 <h2 className="text-sm">Pembayaran DP</h2>
               </div>
             </div>
 
             <div className="bg-[#577BC1] p-2 rounded-lg text-[#000957]">
-              <h3>Step 5</h3>
+              <h3>Step 4</h3>
             </div>
 
             <article>
@@ -311,12 +292,12 @@ const HomeSection = () => {
             <div className="bg-[url('./images/border3.png')] bg-cover bg-center bg-no-repeat p-11 flex justify-center items-center">
               <div className="flex flex-col gap-y-3 w-36 h-36 justify-center items-center bg-white shadow-sm shadow-black rounded-full">
                 <i className="fas fa-code text-2xl text-[#344CB7]"></i>
-                <h2 className="text-sm">Pembuatan Website</h2>
+                <h2 className="text-sm">Proses Pengerjaan</h2>
               </div>
             </div>
 
             <div className="bg-[#577BC1] p-2 rounded-lg text-[#000957]">
-              <h3>Step 6</h3>
+              <h3>Step 5</h3>
             </div>
 
             <article>
@@ -336,7 +317,7 @@ const HomeSection = () => {
             </div>
 
             <div className="bg-[#577BC1] p-2 rounded-lg text-[#000957]">
-              <h3>Step 7</h3>
+              <h3>Step 6</h3>
             </div>
 
             <article>
@@ -355,7 +336,7 @@ const HomeSection = () => {
             </div>
 
             <div className="bg-[#577BC1] p-2 rounded-lg text-[#000957]">
-              <h3>Step 8</h3>
+              <h3>Step 7</h3>
             </div>
 
             <article>
@@ -376,7 +357,7 @@ const HomeSection = () => {
 
             <div className="bg-[#577BC1] p-2 rounded-lg text-[#000957]">
               <div id="template"></div>
-              <h3>Step 9</h3>
+              <h3>Step 8</h3>
             </div>
 
             <article>
@@ -418,7 +399,7 @@ const HomeSection = () => {
         </div>
       </section>
 
-      <section className="w-full h-20 flex items-center justify-center bg-[#344CB7] rounded-2xl mb-3 md:mb-12 xl:self-center xl:w-3/5">
+      <section className="w-full h-20 flex items-center justify-center bg-[#577BC1] rounded-2xl mb-3 md:mb-12 xl:self-center xl:w-3/5">
         <img src="/images/logo.png" alt="code.express" className="w-52" />
       </section>
     </Fragment>
